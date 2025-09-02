@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(119, 0, 0);
+}
+
+#produtos{
+    background-color: rgb(255, 64, 64);
+    height: 700px;
+    padding-top: 30px;
+}
+#parceiros{
+    background-color: rgb(0, 255, 55);
+    height: 700px;
+}
+#historia{
+    background-color: rgb(0, 89, 255);
+    height: 700px;
+}
+#cadastro{
+    background-color: rgb(255, 0, 200);
+    height: 700px;
+}
+.logotipo{
+    height: 200px;
+}
+
+.menu{
+    background-color: darkorange;
+    padding: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.menu a:hover{
+    color: darkorange;
+    text-decoration: underline;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;
+}
+
+.texto_1teste{
+    background-color: rgb(108, 105, 255);
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.texto_1teste p{
+    /*border: solid red 2px;*/
+    text-align: justify;
+}
+.texto_1teste:hover{
+    background-color: rgb(0, 255, 255);
+}
